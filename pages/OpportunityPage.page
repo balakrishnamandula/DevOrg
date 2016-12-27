@@ -11,7 +11,7 @@
             </apex:pageBlockButtons>
             <apex:pageBlockTable value="{!oppts}" var="opp">
                 <apex:column value="{!opp.Name}"/>
-                <apex:column headerValue="Stage">Updated
+                <apex:column headerValue="Stage">Updated back in Github
                 	<apex:inputField value="{!opp.StageName}"/>
                 </apex:column>
             </apex:pageBlockTable>
